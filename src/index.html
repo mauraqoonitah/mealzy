@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mealzy
+    </title>
+</head>
+
+<body>
+    <header>
+        <div class="text-center">
+            <h1 class="title"> Mealzy </h1>
+            <h4> your meal assistant</h4>
+        </div>
+
+    </header>
+
+    <main class="container">
+
+      <!-- <div class="row" id="searchMeal"> </div> -->
+        <search-bar></search-bar>
+        <section-tab></section-tab>
+
+
+
+
+
+    </main>
+    </section>
+
+    <footer class="container-fluid bg-4 text-center">
+        <p>Made By Maura Qoonitah</p>
+    </footer>
+
+
+    <script>
+        function openTab(evt, tabList) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabList).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

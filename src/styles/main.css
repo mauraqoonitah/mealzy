@@ -1,0 +1,229 @@
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&family=Roboto:wght@400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courgette&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courgette&family=Merienda+One&family=Overpass&display=swap');
+        body {
+            background-color: #fffdd6;
+            font-family: 'Baloo Thambi 2', cursive;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Bree Serif', serif;
+        }
+        
+        .title {
+            margin: 0;
+            padding-top: 60px;
+            font-size: 50px;
+            text-align: center;
+            color: darkolivegreen;
+            font-family: 'Courgette', cursive;
+            padding-bottom: 10px;
+            ;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .title {
+                font: 25px;
+            }
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        p,
+        text,
+        a {
+            font-family: 'Overpass', sans-serif;
+        }
+        
+        .container {
+            padding: 16px;
+        }
+        
+        .full-width {
+            width: 100%;
+        }
+        /* header */
+        
+        header {
+            position: relative;
+            height: 200px;
+            background-image: linear-gradient(#c0eba7, #a1d483);
+            border-bottom-left-radius: 50% 40%;
+            border-bottom-right-radius: 50% 40%;
+        }
+        
+        header h1 {
+            color: white;
+        }
+        /* Style the tab */
+        
+        .tab {
+            overflow: hidden;
+            border: 1px solid;
+            border-radius: 20px;
+            background-color: #d6ffdf
+        }
+        /* Style the buttons inside the tab */
+        
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+            font-family: 'Baloo Thambi 2';
+        }
+        /* Change background color of buttons on hover */
+        
+        .tab button:hover {
+            background-color: #5cbf72;
+        }
+        /* Create an active/current tablink class */
+        
+        .tab button.active {
+            background-color: #e3d734;
+        }
+        /* Style the tab content */
+        
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            -webkit-animation: fadeEffect 1s;
+            animation: fadeEffect 1s;
+        }
+        /* Fade in tabs */
+        
+        @-webkit-keyframes fadeEffect {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeEffect {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        /* Image hover */
+        
+        img {
+            border-radius: 25px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .contain {
+            object-fit: contain;
+        }
+        
+        .hov {
+            position: relative;
+        }
+        
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+        
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            top: 50%;
+            left: 50%;
+        }
+        
+        img:hover {
+            opacity: 0.5;
+        }
+        
+        .hov:hover .middle {
+            opacity: 1;
+        }
+        
+        .text {
+            background-color: black;
+            color: yellow;
+            font-size: 16px;
+            padding: 10px 10px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        /* search bar */
+        
+        .input-random {
+            background-color: whitesmoke;
+            border-radius: 20px;
+            padding: 10px;
+            border: 2px solid green;
+        }
+        
+        .input-random:hover {
+            background-color: lightgoldenrodyellow;
+            color: black;
+        }
+        
+        #searchButtonElement {
+            background-color: green;
+            color: honeydew;
+            padding: 5px;
+            margin-left: 5px;
+        }
+        
+        #searchButtonElement:hover {
+            background-color: lightgoldenrodyellow;
+            color: black;
+        }
+        
+        .object-center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+        
+        .tab {
+            margin: 20px;
+        }
+        
+        .box {
+            height: 100px;
+            border: 1px solid black;
+            white-space: pre-wrap;
+        }
+        
+        .bg-4 {
+            background-color: #a1d483;
+            color: darkolivegreen;
+            height: 60px;
+            width: 100%;
+            padding-top: 20px;
+            margin-top: 100px;
+        }
+        
+        .bg-4 p {
+            font-family: 'Courgette', cursive;
+        }
