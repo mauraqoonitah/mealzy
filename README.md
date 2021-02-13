@@ -22,7 +22,7 @@
 - **JavaScript Asynchronous Request**: Learn data transactions via the HTTP / HTTPS protocol using the fetch API in both the GET, POST, PUT, and DELETE methods.
 
 
-### Screenshot Football Fav App
+### Screenshot 
 <img src="Screenshot mealzy HiDPI Screen.png" width="600" />
 <img src="Screenshot Mealzy App.jpg" width="900" />
 
